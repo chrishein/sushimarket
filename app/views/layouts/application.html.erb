@@ -2,13 +2,27 @@
 <html>
 <head>
   <title>Sushimarket</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "sushimarket", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <link href='http://fonts.googleapis.com/css?family=Federant' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	
+	<div id="header">
+	    <div id="header_container">
+	       	<div id="header_inner">
+	       		<h1>Sushimarket</h1>
+	        </div>
+       </div>
+   </div>
 
-<%= yield %>
+   <div id="content">
+		<div id="content_container">
+   			<%= yield %>
+		</div>
+   </div>
+
 
 </body>
 </html>
