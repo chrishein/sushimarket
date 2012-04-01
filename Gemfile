@@ -46,3 +46,5 @@ gem 'jquery-rails'
 
 
 gem "devise"
+
+gem 'yaml_db', :git => 'https://github.com/pcreux/yaml_db.git'

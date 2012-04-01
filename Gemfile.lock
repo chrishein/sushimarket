@@ -16,6 +16,12 @@ GIT
       remotipart (~> 1.0)
       sass-rails (~> 3.1)
 
+GIT
+  remote: https://github.com/pcreux/yaml_db.git
+  revision: 04a0802eb7a9d90041196ef47630215a99b59e2b
+  specs:
+    yaml_db (0.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -153,3 +159,4 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
+  yaml_db!
