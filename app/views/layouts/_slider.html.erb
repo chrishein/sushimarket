@@ -1,0 +1,12 @@
+<div class="carousel">
+	<div class="carousel-inner">
+		<% (1..6).each do |i| %>
+			<div class="item<%= (i == 1 ? ' active': '') %>">
+				<%= image_tag "images/s#{i}.jpg", :height => 294, :width => 940 %>
+			</div>
+	   	<% end %>
+	</div>
+	
+	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>

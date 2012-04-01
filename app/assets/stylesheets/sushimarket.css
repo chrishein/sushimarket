@@ -1,59 +1,9 @@
-
-html {
-    margin: 0;
-    height: 100%;
-    min-height: 100%
+.company_name {
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #eee;
-}
-
-#header {
-    width: 100%;
-    background: #000;
-
-}
-
-#header_container {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-		padding: 15px;
-		color: #fff;
-}
-
-#header_inner {
-	margin-left: 10px;
-}
-
-#header_inner h1 {
-	font-family: 'Federant', cursive;
-	line-height: 25%;
-}
-
-#content {
-    width: 100%;
-    background: #666;
-    padding-top: 5px;
-    padding-bottom: 30px;
-		min-height: 100%;
-}
-
-#content_container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-		
-}
-
-#slider {
-	width: 800px;
-	height: 250px;
-	overflow: hidden;
-	
+.carousel {
+	width: 940px;
+	height: 294px;
 	/*
 	-webkit-box-shadow: 0 0 10px rgb(0,0,0);
 	-moz-box-shadow: 0 0 10px rgb(0,0,0);
@@ -61,19 +11,6 @@ body {
 	*/
 }
 
-.nivoSlider {
-    position:relative;
-    width: 800px; /* Change this to your images width */
-    height:250px; /* Change this to your images height */
-    background:url(images/loading.gif) no-repeat 50% 50%;
-}
-.nivoSlider img {
-    position:absolute;
-    top:0px;
-    left:0px;
-    display:none;
-}
-.nivoSlider a {
-    border:0;
-    display:block;
+tr.product_category td {
+	background-color: #ececec;
 }

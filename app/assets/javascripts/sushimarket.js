@@ -1,8 +1,5 @@
 $(function(){
-	$('#slider').nivoSlider({
-		  effect: 'fade',
-			controlNav: false,
-			directionNav: false,
-			pauseTime: 3000
-		});
+	$('.carousel').carousel({
+		interval: 3500
+	});
 });
