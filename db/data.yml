@@ -5,10 +5,12 @@ users:
   - id
   - email
   - encrypted_password
+  - created_at
   records: 
   - - 1
     - info@kumbel.com.ar
     - $2a$10$eXbYoGxcaS8KQc9oLZFaDe9ub.lzd5TBW4rWvXzeRYpRqHVi0EqBC
+    - '2012-03-31 02:27:44.767292'
 
 ---
 product_categories:
