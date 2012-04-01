@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sushimarket</title>
-  <%= stylesheet_link_tag    "sushimarket", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <link href='http://fonts.googleapis.com/css?family=Federant' rel='stylesheet' type='text/css'>
+  <title>MercadoSushi</title>
+  <%= javascript_include_tag "jquery", "jquery_ujs", "bootstrap.min", "bootstrap-carousel" %>
+  <%= javascript_include_tag "sushimarket" %>
+  <%= stylesheet_link_tag "bootstrap.min", "sushimarket" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-	
-	<div id="header">
-	    <div id="header_container">
-	       	<div id="header_inner">
-	       		<h1>Sushimarket</h1>
-	        </div>
-       </div>
-   </div>
-
-   <div id="content">
-		<div id="content_container">
-   			<%= yield %>
+	<div class="container">
+		<div class="page-header">
+	    		<h1 class="company_name">MercadoSushi</h1>
+		 </div>
+		<div class="navbar">
+		    <div class="navbar-inner">
+		    	<div class="container">
+					<ul class="nav">
+						<li <%= params[:controller] == 'welcome' ? "class='active'" : '' %>><a href="/">Inicio</a></li>
+						<li <%= params[:controller] == 'menu' ? "class='active'" : '' %>><a href="/menu">Carta</a></li>
+						<li><a href="/">Servicios</a></li>
+						<li><a href="/">Contacto</a></li>
+					</ul>
+		    	</div>
+		    </div>
+	    </div>
+		<div class="row">
+			<div class="span12">
+				<%= slider %>
+			</div>
 		</div>
-   </div>
+		
+		<%= yield %>
+	</div>
 
-
+    
 </body>
 </html>

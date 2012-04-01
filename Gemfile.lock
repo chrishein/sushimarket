@@ -144,7 +144,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 3.2.1)
   devise
   jquery-rails
   rails (= 3.2.3)

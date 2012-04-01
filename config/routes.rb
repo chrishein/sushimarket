@@ -1,4 +1,6 @@
 Sushimarket::Application.routes.draw do
+  get "menu" => "menu#index"
+  get "menu/index"
   get "welcome/index"
 
   resources :products

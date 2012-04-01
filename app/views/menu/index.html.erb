@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="span4">
+		<div class="hero-unit">
+			<h2>Aqui las promos</h2>
+		</div>
+	</div>
+	<div class="span8">
+		<table class="table table-condensed">
+			<% @product_categories.each do |pc| %>
+				<tr class="product_category">
+					<td colspan="2">
+						<h3><%= pc.name %></h3>
+					</td>
+				</tr>
+				<% pc.products.active.each do |p| %>
+				<tr class="product">
+					<td>
+						<%= p.name %>
+					</td>
+					<td>
+						&euro; <%= p.price %>
+					</td>
+				</tr>
+				<% end %>
+			<% end %>
+		</table>
+	</div>
+</div>
