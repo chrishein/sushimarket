@@ -8,6 +8,7 @@ users:
   records: 
   - - 1
     - info@kumbel.com.ar
+    - $2a$10$eXbYoGxcaS8KQc9oLZFaDe9ub.lzd5TBW4rWvXzeRYpRqHVi0EqBC
 
 ---
 product_categories:
