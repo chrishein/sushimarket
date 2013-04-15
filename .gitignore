@@ -16,6 +16,5 @@
 
 
 /public/assets
-
-
-.DS_Store
+.DS_Storei
+config/database.yml
