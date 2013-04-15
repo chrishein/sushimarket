@@ -12,3 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap-carousel
+//= require bootstrap.min
+//= require sushimarket
