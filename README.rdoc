@@ -1,5 +1,5 @@
 == Rails 3.2.3, Rails Admin, Twitter Bootstrap Test
 
 Example sushi website
-http://high-window-7552.herokuapp.com/
 
+http://high-window-7552.herokuapp.com/
